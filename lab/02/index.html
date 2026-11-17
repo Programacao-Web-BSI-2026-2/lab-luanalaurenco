@@ -3,54 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Suporte</title>
+    <title>Formulário de Suporte | Laboratório 02</title>
 </head>
 <body>
 
-    <form class="box-suporte" action="https://httpbin.org/post" method="POST" enctype="multipart/form-data">
-        <fieldset>
-            <legend>Abrir Chamado Técnico</legend>
 
-            <div class="campo">
-                <label for="nome">Nome Completo:</label>
-                <input type="text" id="nome" name="nome" required>
-            </div>
+    <!-- Link de retorno ao Portfólio Central -->
+    <nav aria-label="Navegação do portfólio">
+        <a href="../../index.html">
+            ← Voltar ao Portfólio Central
+        </a>
+    </nav>
 
-            <div class="campo">
-                <label for="email">E-mail de Contato:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
 
-            <div class="campo">
-                <label for="prioridade">Prioridade:</label>
-                <select id="prioridade" name="prioridade" required>
-                    <option value="Baixa">Baixa</option>
-                    <option value="Média">Média</option>
-                    <option value="Alta">Alta</option>
-                </select>
-            </div>
+    <hr>
 
-            <div class="campo">
-                <label for="anexo">Arquivo de Log ou Print (PNG/PDF):</label>
-                <input 
-                    type="file" 
-                    id="anexo" 
-                    name="anexo" 
-                    accept="image/png,application/pdf" 
-                    aria-describedby="instrucoes-anexo"
-                >
-                <span id="instrucoes-anexo">Formatos permitidos: apenas arquivos .png ou .pdf.</span>
-            </div>
 
-            <button type="submit">Enviar Chamado</button>
-        </fieldset>
-    </form>
+    <header>
+        <h1>Formulário de Suporte Técnico</h1>
+        <p>Laboratório 02 - Programação Web</p>
+    </header>
+
+
+    <main>
+        <form class="box-suporte"
+              action="https://httpbin.org/post"
+              method="POST"
+              enctype="multipart/form-data">
+
+
+            <fieldset>
+                <legend>Abrir Chamado Técnico</legend>
+
+
+                <div class="campo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text"
+                           id="nome"
+                           name="nome"
+                           required>
+                </div>
+
+
+                <br>
+
+
+                <div class="campo">
+                    <label for="email">E-mail de Contato:</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           required>
+                </div>
+
+
+                <br>
+
+
+                <div class="campo">
+                    <label for="prioridade">Prioridade:</label>
+                    <select id="prioridade"
+                            name="prioridade"
+                            required>
+                        <option value="Baixa">Baixa</option>
+                        <option value="Média">Média</option>
+                        <option value="Alta">Alta</option>
+                    </select>
+                </div>
+
+
+                <br>
+
+
+                <div class="campo">
+                    <label for="anexo">
+                        Arquivo de Log ou Print (PNG/PDF):
+                    </label>
+
+
+                    <input type="file"
+                           id="anexo"
+                           name="anexo"
+                           accept="image/png,application/pdf"
+                           aria-describedby="instrucoes-anexo">
+
+
+                    <p id="instrucoes-anexo">
+                        Formatos permitidos: apenas .png ou .pdf.
+                    </p>
+                </div>
+
+
+                <button type="submit">
+                    Enviar Chamado
+                </button>
+
+
+            </fieldset>
+        </form>
+    </main>
+
+
+    <hr>
+
+
+    <footer>
+        <p>Laboratório 02 - Programação Web</p>
+        <a href="../../index.html">
+            Voltar ao Portfólio Central
+        </a>
+    </footer>
+
 
 </body>
 </html>
-
-
-
 
 
 {
