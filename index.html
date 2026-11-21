@@ -6,45 +6,66 @@
     <title>Portfólio de Laboratórios</title>
 </head>
 <body>
-    <!-- Crie o cabeçalho (header) principal da página aqui com o título (h1) e uma breve descrição (p) -->
+
+    <!-- Cabeçalho Principal -->
     <header>
-        <h1>Portfólio de Laboratórios - Programação Web</h1>
-        <p>Hub central para organização das atividades, laboratórios e documentação de estudos da disciplina.</p>
+        <h1>Meu Portfólio de Programação Web</h1>
+        <p>Repositório de atividades práticas e documentação da disciplina.</p>
     </header>
 
-    <!-- Crie a área de navegação (nav) principal aqui -->
+    <hr>
+
+    <!-- Menu Principal -->
     <nav>
-        <!-- O menu deve conter: -->
+        <h2>Menu Principal</h2>
         <ul>
-            <!-- 1. Um item indicando o Início (sem link clicável, use uma tag de destaque de texto em vez do href) -->
-            <li><strong>Início</strong></li>
+            <!-- Item Início (Sem link, apenas destaque) -->
+            <li><strong>Início (Você está aqui)</strong></li>
             
-            <!-- 2. Um link para a página referencias.html -->
-            <li><a href="referencias.html">Guia de Referências</a></li>
+            <!-- Link para a página de referências -->
+            <li><a href="referencias.html">Material de Referência HTML</a></li>
             
-            <!-- 3. Uma lista para os Registros de Sala de Aula -->
+            <!-- Submenu de Registros -->
             <li>
-                <strong>Registros de Sala de Aula</strong>
-                <!-- Crie links relativos apontando para os arquivos na pasta 'doc' -->
+                <strong>Registros de Sala de Aula (Markdown):</strong>
                 <ul>
-                    <li><a href="doc/pratica-01.html">Prática 01</a></li>
-                    <li><a href="doc/comandos-git.html">Comandos Git</a></li>
+                    <!-- Apontando para .html conforme a dica para o GitHub Pages -->
+                    <li><a href="doc/pratica-01.html">Registro da Prática 01</a></li>
+                    <li><a href="doc/comandos-git.html">Guia de Comandos Git</a></li>
                 </ul>
             </li>
             
-            <!-- 4. Uma lista de Trilhas de Laboratório -->
+            <!-- Submenu de Trilhas de Laboratório -->
             <li>
-                <strong>Trilhas de Laboratório</strong>
-                <!-- ATENÇÃO: Utilize uma lista ordenada para os Módulos, e dentro de cada módulo,
-                     utilize uma lista não ordenada para os links dos laboratórios (lab/01, lab/02, etc).
-                     Lembre-se da regra de aninhamento! -->
+                <strong>Trilhas de Laboratório:</strong>
+                <!-- Lista Ordenada para os Módulos -->
                 <ol>
+                    <!-- Módulo 1 -->
                     <li>
-                        <strong>Módulo 1</strong>
+                        <strong>Módulo 1: Estrutura (HTML)</strong>
+                        <!-- Lista Não Ordenada para os Labs -->
                         <ul>
-                            <li><a href="lab/01/index.html">Laboratório 01</a></li>
-                            <li><a href="lab/02/index.html">Laboratório 02</a></li>
-                            <li><a href="lab/03/index.html">Laboratório 03</a></li>
+                            <li><a href="lab/01/index.html">Lab 01 - Hello World e Tags Básicas</a></li>
+                            <li><a href="lab/02/index.html">Lab 02 - Listas Ordenadas e Não Ordenadas</a></li>
+                            <li><a href="lab/03/index.html">Lab 03 - Estruturação de Tabelas</a></li>
+                        </ul>
+                    </li>
+                    <!-- Módulo 2 -->
+                    <li>
+                        <strong>Módulo 2: Estilização (CSS)</strong>
+                        <ul>
+                            <li><a href="lab/04/index.html">Lab 04 - Introdução ao CSS</a></li>
+                            <li><a href="lab/05/index.html">Lab 05 - Seletores e Propriedades</a></li>
+                            <li><a href="lab/06/index.html">Lab 06 - Layouts Responsivos</a></li>
+                        </ul>
+                    </li>
+                    <!-- Módulo 3 -->
+                    <li>
+                        <strong>Módulo 3: Interatividade (JavaScript)</strong>
+                        <ul>
+                            <li><a href="lab/07/index.html">Lab 07 - Manipulação do DOM</a></li>
+                            <li><a href="lab/08/index.html">Lab 08 - Eventos e Funções</a></li>
+                            <li><a href="lab/09/index.html">Lab 09 - Validação de Formulários</a></li>
                         </ul>
                     </li>
                 </ol>
@@ -54,11 +75,10 @@
 
     <hr>
 
-    <!-- Crie a área de conteúdo principal (main) aqui -->
+    <!-- Conteúdo Principal -->
     <main>
-        <!-- Adicione um subtítulo (h2) e um parágrafo (p) de boas-vindas -->
-        <h2>Bem-vindo ao meu portfólio!</h2>
-        <p>Utilize o menu acima para navegar entre as páginas de referências, ler os registros de aula ou acessar os laboratórios práticos desenvolvidos durante a disciplina. Todo o conteúdo foi estruturado respeitando as normas de semântica e acessibilidade do HTML5.</p>
+        <h2>Status do Projeto</h2>
+        <p>Este site consolida tanto as implementações práticas (HTML) quanto a documentação técnica (Markdown) elaborada durante as aulas.</p>
     </main>
 
 </body>
