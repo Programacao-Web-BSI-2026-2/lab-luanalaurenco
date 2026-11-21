@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Laboratórios</title>
+</head>
+<body>
+    <!-- Crie o cabeçalho (header) principal da página aqui com o título (h1) e uma breve descrição (p) -->
+    <header>
+        <h1>Portfólio de Laboratórios - Programação Web</h1>
+        <p>Hub central para organização das atividades, laboratórios e documentação de estudos da disciplina.</p>
+    </header>
 
+    <!-- Crie a área de navegação (nav) principal aqui -->
+    <nav>
+        <!-- O menu deve conter: -->
+        <ul>
+            <!-- 1. Um item indicando o Início (sem link clicável, use uma tag de destaque de texto em vez do href) -->
+            <li><strong>Início</strong></li>
+            
+            <!-- 2. Um link para a página referencias.html -->
+            <li><a href="referencias.html">Guia de Referências</a></li>
+            
+            <!-- 3. Uma lista para os Registros de Sala de Aula -->
+            <li>
+                <strong>Registros de Sala de Aula</strong>
+                <!-- Crie links relativos apontando para os arquivos na pasta 'doc' -->
+                <ul>
+                    <li><a href="doc/pratica-01.html">Prática 01</a></li>
+                    <li><a href="doc/comandos-git.html">Comandos Git</a></li>
+                </ul>
+            </li>
+            
+            <!-- 4. Uma lista de Trilhas de Laboratório -->
+            <li>
+                <strong>Trilhas de Laboratório</strong>
+                <!-- ATENÇÃO: Utilize uma lista ordenada para os Módulos, e dentro de cada módulo,
+                     utilize uma lista não ordenada para os links dos laboratórios (lab/01, lab/02, etc).
+                     Lembre-se da regra de aninhamento! -->
+                <ol>
+                    <li>
+                        <strong>Módulo 1</strong>
+                        <ul>
+                            <li><a href="lab/01/index.html">Laboratório 01</a></li>
+                            <li><a href="lab/02/index.html">Laboratório 02</a></li>
+                            <li><a href="lab/03/index.html">Laboratório 03</a></li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Crie a área de conteúdo principal (main) aqui -->
+    <main>
+        <!-- Adicione um subtítulo (h2) e um parágrafo (p) de boas-vindas -->
+        <h2>Bem-vindo ao meu portfólio!</h2>
+        <p>Utilize o menu acima para navegar entre as páginas de referências, ler os registros de aula ou acessar os laboratórios práticos desenvolvidos durante a disciplina. Todo o conteúdo foi estruturado respeitando as normas de semântica e acessibilidade do HTML5.</p>
+    </main>
+
+</body>
+</html>
